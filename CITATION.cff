@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this software or datasets produced with it, please cite the article in 'preferred-citation' and this software."
+type: software
+message: "If you use this software or datasets produced with it, please cite the article in 'preferred-citation'. When appropriate, also cite this software repository and the archived dataset."
 title: "bigthree-dynet-pd: Dynamic-network Prisoner's Dilemma simulation with personality-driven tie dynamics"
 version: "1.0.0"
 date-released: "2025-11-24"
+
+abstract: "Agent-based simulation code for a dynamic-network Prisoner's Dilemma model in which Extraversion, Openness, and Agreeableness shape partner capacity, partner search, cooperation, tie formation, and tie cutting."
 
 authors:
   - family-names: "Abián"
@@ -19,19 +22,17 @@ repository-code: "https://github.com/davidabian/bigthree-dynet-pd"
 url: "https://github.com/davidabian/bigthree-dynet-pd"
 license: "MIT"
 
-doi: "TODO_INSERT_SOFTWARE_DOI"
-identifiers:
-  - type: doi
-    value: "TODO_INSERT_SOFTWARE_DOI"
-    description: "Zenodo record for this software."
-
 keywords:
-  - dynamic networks
-  - Prisoner's Dilemma
-  - agent-based modelling
-  - Big Five personality
-  - cooperation
-  - reciprocity
+  - "dynamic networks"
+  - "Prisoner's Dilemma"
+  - "agent-based modelling"
+  - "Big Five personality"
+  - "Extraversion"
+  - "Openness"
+  - "Agreeableness"
+  - "cooperation"
+  - "reciprocity"
+  - "network dynamics"
 
 preferred-citation:
   type: article
@@ -45,11 +46,29 @@ preferred-citation:
       given-names: "Sergio"
     - family-names: "Trillo-Lado"
       given-names: "Raquel"
-  title: "Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner’s Dilemma driven by extraversion, openness, and agreeableness"
-  year: 2025
-  journal: "TODO_JOURNAL_NAME"
-  volume: "TODO_VOLUME"
-  issue: "TODO_ISSUE"
-  start: "TODO_START_PAGE"
-  end: "TODO_END_PAGE"
-  doi: "TODO_INSERT_ARTICLE_DOI"
+  title: "Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner's Dilemma driven by extraversion, openness, and agreeableness"
+  journal: "Scientific Reports"
+  year: 2026
+  date-published: "2026-04-24"
+  doi: "10.1038/s41598-026-49942-w"
+  url: "https://doi.org/10.1038/s41598-026-49942-w"
+
+references:
+  - type: data
+    scope: "Archived simulation outputs associated with the article."
+    authors:
+      - family-names: "Abián"
+        given-names: "David"
+        orcid: "https://orcid.org/0000-0002-4405-3652"
+      - family-names: "Bernad"
+        given-names: "Jorge"
+      - family-names: "Ilarri"
+        given-names: "Sergio"
+      - family-names: "Trillo-Lado"
+        given-names: "Raquel"
+    title: "Simulation outputs for Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner's Dilemma driven by extraversion, openness, and agreeableness"
+    publisher:
+      name: "Zenodo"
+    year: 2025
+    doi: "10.5281/zenodo.17714612"
+    url: "https://doi.org/10.5281/zenodo.17714612"
