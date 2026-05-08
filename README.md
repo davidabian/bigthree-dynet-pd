@@ -2,10 +2,7 @@
 
 Simulation code for the article:
 
-> **Abián, D., Bernad, J., Ilarri, S. & Trillo-Lado, R. (2025).**  
-> *Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner’s Dilemma driven by extraversion, openness, and agreeableness.*  
-> Journal / preprint server, volume(issue), pages.  
-> DOI: `TODO_INSERT_ARTICLE_DOI`
+> Abián, D., Bernad, J., Ilarri, S. *et al*. Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner’s Dilemma driven by extraversion, openness, and agreeableness. *Scientific Reports* (2026). https://doi.org/10.1038/s41598-026-49942-w
 
 This repository implements an agent-based simulation of a dynamic-network Prisoner’s Dilemma in which three continuous personality traits (Extraversion, Openness, Agreeableness) shape:
 
@@ -21,57 +18,32 @@ The code reproduces exactly the simulations reported in the article, including t
 
 ## 🔔 Citation (please read before using)
 
-If you use this code or any datasets generated with it in scientific, academic, or technical work, please **cite at least the primary article** and, when appropriate, the software and dataset records.
+If you use this code or any datasets generated with it in scientific, academic, or technical work, please cite the primary article. When relevant, also cite the software repository and the archived dataset.
 
 ### Primary article (main citation)
 
-> Abián, D., Bernad, J., Ilarri, S. & Trillo-Lado, R. (2025).  
-> *Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner’s Dilemma driven by extraversion, openness, and agreeableness.*  
-> Journal / preprint server, volume(issue), pages.  
-> https://doi.org/`TODO_INSERT_ARTICLE_DOI`
+> Abián, D., Bernad, J., Ilarri, S. *et al*. Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner’s Dilemma driven by extraversion, openness, and agreeableness. *Scientific Reports* (2026). https://doi.org/10.1038/s41598-026-49942-w
 
-### Software record
+### Software repository and dataset record
 
-> Abián, D. (2025).  
+> Abián, D., Bernad, J., Ilarri, S., & Trillo-Lado, R. (2025).  
 > *bigthree-dynet-pd: Dynamic-network Prisoner’s Dilemma simulation with personality-driven tie dynamics* [Computer software].  
-> Zenodo. https://doi.org/`TODO_INSERT_SOFTWARE_DOI`
+> GitHub. https://github.com/davidabian/bigthree-dynet-pd
 
-### Dataset record
-
-> Abián, D. (2025).  
+> Abián, D., Bernad, J., Ilarri, S., & Trillo-Lado, R. (2025).  
 > *Simulation outputs for “Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner’s Dilemma driven by extraversion, openness, and agreeableness”* [Data set].  
 > Zenodo. https://doi.org/10.5281/zenodo.17714612
 
-### BibTeX entries
+### BibTeX entry
 
 ```bibtex
-@article{Abian2025DynamicPD,
-  author  = {Abián, David and Bernad, Jorge and Ilarri, Sergio and Trillo-Lado, Raquel},
+@article{Abian2026DynamicPD,
+  author  = {Abi{\'a}n, David and Bernad, Jorge and Ilarri, Sergio and Trillo-Lado, Raquel},
   title   = {Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner's Dilemma driven by extraversion, openness, and agreeableness},
-  journal = {TODO_JOURNAL_NAME},
-  year    = {2025},
-  volume  = {TODO_VOLUME},
-  number  = {TODO_ISSUE},
-  pages   = {TODO_PAGES},
-  doi     = {TODO_INSERT_ARTICLE_DOI}
-}
-
-@software{Abian2025BigthreeSoftware,
-  author       = {Abián, David},
-  title        = {bigthree-dynet-pd: Dynamic-network Prisoner's Dilemma simulation with personality-driven tie dynamics},
-  year         = {2025},
-  publisher    = {Zenodo},
-  doi          = {TODO_INSERT_SOFTWARE_DOI},
-  url          = {https://doi.org/TODO_INSERT_SOFTWARE_DOI}
-}
-
-@dataset{Abian2025BigthreeDataset,
-  author       = {Abián, David},
-  title        = {Simulation outputs for "Individual and collective gains from cooperation and reciprocity in a dynamic-network Prisoner's Dilemma driven by extraversion, openness, and agreeableness"},
-  year         = {2025},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17714612},
-  url          = {https://doi.org/10.5281/zenodo.17714612}
+  journal = {Scientific Reports},
+  year    = {2026},
+  doi     = {10.1038/s41598-026-49942-w},
+  url     = {https://doi.org/10.1038/s41598-026-49942-w},
 }
 ````
 
@@ -166,7 +138,7 @@ bigthree-dynet-pd/
 
 ## 📊 Data availability
 
-The full set of simulation outputs used in the primary article is archived as a single ZIP file on Zenodo.
+The full set of simulation outputs used in the primary article is archived on Zenodo.
 
 > Dataset DOI: [https://doi.org/10.5281/zenodo.17714612](https://doi.org/10.5281/zenodo.17714612)
 
